@@ -1,0 +1,37 @@
+.header{
+    padding: 2rem;
+    border-bottom: $border;
+    background-color: lightgray;
+    .logo{
+        font-size: 2rem;
+        color: $black;
+        span{
+            color: $blue; 
+        }
+	}
+    
+}
+ .nav{
+	a{
+        margin: 0 1rem;
+        font-size: 1rem;
+        color: $white;
+        &:hover{
+        color: $blue;
+        }
+       }
+     }  
+
+
+
+        
+     
+    
+  
+        
+        
+   
+           		
+           
+       
+    

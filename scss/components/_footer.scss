@@ -1,0 +1,35 @@
+.footer{
+	padding: 2rem;
+    border-bottom: $border;
+    background-color: lightgray;
+	display: flex;
+}
+	
+    
+ .redes{
+        display: flex;
+    	flex-direction: row;
+    	justify-content: center;
+    	align-items: center;
+    	background-color: lightgray;
+    	}
+
+ a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: white;
+}
+
+li {
+    list-style: none;
+    margin: 16px;
+    padding: 8px;
+    cursor: pointer;
+    }
+
+
+
+

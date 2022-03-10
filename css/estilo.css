@@ -1,0 +1,91 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none !important; }
+
+.header {
+  padding: 2rem;
+  border-bottom: 0.2rem solid #8a8a8a;
+  background-color: lightgray; }
+  .header .logo {
+    font-size: 2rem;
+    color: #575757; }
+    .header .logo span {
+      color: #4da6ff; }
+
+.nav a {
+  margin: 0 1rem;
+  font-size: 1rem;
+  color: beige; }
+  .nav a:hover {
+    color: #4da6ff; }
+
+.footer {
+  padding: 2rem;
+  border-bottom: 0.2rem solid #8a8a8a;
+  background-color: lightgray;
+  display: flex; }
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+a:hover {
+  color: white; }
+
+li {
+  list-style: none;
+  margin: 16px;
+  padding: 8px;
+  cursor: pointer; }
+
+.home {
+  background: url(../assets/img/fondo1.jpg) no-repeat;
+  background-size: cover;
+  background-position: left;
+  background-attachment: fixed; }
+  .home .content {
+    width: 55rem;
+    padding: 2rem; }
+    .home .content h3 {
+      font-size: 4rem;
+      color: beige;
+      text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; }
+  .home p {
+    line-height: 2;
+    font-size: 1.5rem;
+    color: beige;
+    padding: 1rem 0;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; }
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 55%; }
+  .header section {
+    padding: 5rem 2rem; } }
+
+@media (max-width: 768px) {
+  section {
+    padding: 3rem 1rem;
+    background-position: left; }
+  .header .nav {
+    display: none; } }
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%; }
+  .home {
+    background-position: center; }
+    .home .content h3 {
+      font-size: 4rem; } }
